@@ -4,7 +4,7 @@ import { css } from 'styled-components'
 export const Container = styled.main`
     background-color:hsl(213,19%,18%);
     border-radius:1.5rem;
-    padding:1.5rem;
+    padding:2.5rem 2rem;
     color:white;
     max-width:40ch;
     min-width:15ch;
@@ -15,12 +15,10 @@ export const Container = styled.main`
     ${props => props.display === "hide" && css`
         display:none ;
         `
-        }
+    }
 `
 
 export const Star = styled.div`
-    /* background-color:hsl(216,12%,8%) ;
-     */
     border-radius:50%;
     padding:.8rem;
     display:grid ;
@@ -63,8 +61,7 @@ export const RatingButton = styled.button`
     text-align:center;
     transition:all .35s ease-in-out ;
 
-    ${
-    props => props.active === "active" ? css`
+    ${props => props.active === "active" ? css`
         background-color:hsl(217,12%,63%) ;
         color:white ;
     ` : css`
