@@ -19,7 +19,8 @@ export const Container = styled.main`
 `
 
 export const Star = styled.div`
-    background-color:hsl(216,12%,8%) ;
+    /* background-color:hsl(216,12%,8%) ;
+     */
     border-radius:50%;
     padding:.8rem;
     display:grid ;
@@ -67,9 +68,9 @@ export const RatingButton = styled.button`
         background-color:hsl(217,12%,63%) ;
         color:white ;
     ` : css`
+    color:hsl(216, 12%, 54%) ;
         background-color:hsl(213, 19%, 18%) ;
-        color:hsl(216, 12%, 54%) ;
-        box-shadow: 0 0 10px 1px hsla(216, 12%, 8%,65%);
+        box-shadow: 0 0 2px 1px hsla(216, 12%, 8%,65%);
     `
     }
 
