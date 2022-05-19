@@ -1,4 +1,4 @@
-## [link](https://fanciful-khapse-3de375.netlify.app/) to live site
+## [link](https://interactive-rating-compo.netlify.app/) to live site
 
 # Frontend Mentor - Interactive rating component
 
